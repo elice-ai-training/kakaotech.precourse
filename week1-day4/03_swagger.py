@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
+# 문서의 제목과 버전을 명시할 수 있습니다.
 app = FastAPI(title="카카오 AI API", version="0.1.0")
 
 class AnalyzeRequest(BaseModel):
