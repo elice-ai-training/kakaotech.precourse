@@ -1,5 +1,5 @@
-import PropsApp from "@/props_practice/App";
-import TimeLoopMission from "@/timeloop_practice/App";
+import PropsApp from "@/useState_practice/App";
+import TimeLoopMission from "@/useEffect_practice/App";
 
 const answer = new URLSearchParams(window.location.search).get("answer");
 
